@@ -1,0 +1,15 @@
+{
+  "name": "ai-powered-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server/index.js",
+    "start": "concurrently \"npm run server\" \"npm run dev\""
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "dotenv": "^16.4.1",
+    "groq-sdk": "^0.16.0"
+  }
+}
